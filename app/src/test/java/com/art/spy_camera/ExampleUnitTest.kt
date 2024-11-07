@@ -1,4 +1,4 @@
-package com.art.alarm
+package com.art.spy_camera
 
 import org.junit.Test
 

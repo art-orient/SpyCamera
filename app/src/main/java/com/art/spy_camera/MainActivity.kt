@@ -1,4 +1,4 @@
-package com.art.alarm
+package com.art.spy_camera
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge

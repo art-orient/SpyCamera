@@ -1,4 +1,4 @@
-package com.art.alarm
+package com.art.spy_camera
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

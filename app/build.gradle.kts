@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.art.alarm"
+    namespace = "com.art.spy_camera"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.art.alarm"
+        applicationId = "com.art.spy_camera"
         minSdk = 27
         targetSdk = 35
         versionCode = 1
