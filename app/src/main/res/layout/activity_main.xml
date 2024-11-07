@@ -18,8 +18,8 @@
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/camera_button"
-        android:contentDescription="@string/app_name"/>
+        android:src="@drawable/camera_button"
+        android:contentDescription="11111111111111"/>
 
     <TextView
         android:id="@+id/textView"
@@ -46,7 +46,7 @@
         app:layout_constraintEnd_toEndOf="@+id/imageButton"
         app:layout_constraintStart_toStartOf="@+id/imageButton"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:srcCompat="@tools:sample/backgrounds/scenic"
+        android:src="@android:drawable/button_onoff_indicator_on"
         android:contentDescription="@string/app_name"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
