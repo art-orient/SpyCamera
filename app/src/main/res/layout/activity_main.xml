@@ -11,26 +11,40 @@
     <ImageButton
         android:id="@+id/imageButton"
         android:layout_width="342dp"
-        android:layout_height="252dp"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="46dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="37dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@drawable/camera_button" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="35dp"
         android:text="@string/app_name"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        tools:layout_editor_absoluteX="122dp"
-        tools:layout_editor_absoluteY="335dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageButton2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageButton2"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
 
     <ImageButton
         android:id="@+id/imageButton2"
-        android:layout_width="285dp"
-        android:layout_height="214dp"
-        tools:layout_editor_absoluteX="74dp"
-        tools:layout_editor_absoluteY="430dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="87dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton"
+        app:layout_constraintStart_toStartOf="@+id/imageButton"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
