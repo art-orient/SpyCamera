@@ -10,43 +10,46 @@
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="342dp"
-        android:layout_height="0dp"
+        android:layout_width="228dp"
+        android:layout_height="157dp"
         android:layout_marginTop="46dp"
-        android:layout_marginEnd="23dp"
+        android:layout_marginEnd="92dp"
         android:layout_marginBottom="37dp"
+        android:contentDescription="11111111111111"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/camera_button"
-        android:contentDescription="11111111111111"/>
+        app:srcCompat="@drawable/camera_button" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginEnd="49dp"
-        android:layout_marginBottom="35dp"
+        android:layout_width="219dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="20dp"
+        android:background="#FFEB3B"
         android:text="@string/app_name"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/imageButton2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageButton"
         app:layout_constraintTop_toBottomOf="@+id/imageButton" />
 
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginBottom="87dp"
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="330dp"
+        android:ems="10"
+        android:hint="Введите свое имя"
+        android:inputType="text"
+        android:text="Name"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton"
-        app:layout_constraintStart_toStartOf="@+id/imageButton"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        android:src="@android:drawable/button_onoff_indicator_on"
-        android:contentDescription="@string/app_name"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
